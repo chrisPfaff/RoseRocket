@@ -33,3 +33,13 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+body {
+  padding-top: 20px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

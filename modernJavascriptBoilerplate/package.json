@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
+    "start": "concurrently \"cd src && node server.js\" \"npm run dev\"",
     "dev": "webpack-dev-server --open --config webpack.config.dev.js",
     "build": "webpack --config webpack.config.prod.js",
     "dev:hot": "npm run dev -- --hot",
